@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.time {
+    font-size: 5cm;
+}
+
+.gamediv {
+    height: 30vh;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(36, 36, 36);
+}
+
+.gameinput, .gamep, .left {
+    margin: 0;
+    margin-top: 2.5vh;
+    align-items: center;
+    font-size: 10vh;
+    width: 100%;
+    height: 10vh;
+    border: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    white-space: nowrap;
+}
+
+.gameinput {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border: 0;
+    left: 50%;
+}
+
+.gameinput:focus {
+    outline: none;
+}
+
+.invisible {
+    color: rgba(255, 255, 255, 0);
+}
+
+.gamep{
+    right: 50%;
+    text-align: right;
+    background-color: black;
+    direction: rtl;
+}
+
+.left {
+    background-color: black;
+    right: 50%;
+}
